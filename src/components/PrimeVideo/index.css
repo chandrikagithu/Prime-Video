@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.container {
+  background-color: #000000;
+  padding-bottom: 32px;
+  min-height: 100vh;
+}
+.prime-video {
+  width: 100%;
+  height: 180px;
+}
+.movies-container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .movies-container {
+    max-width: 1110px;
+  }
+}
+
+.action-movies {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 32px;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .action-movies {
+    font-size: 32px;
+  }
+}
